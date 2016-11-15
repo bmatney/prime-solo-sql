@@ -64,7 +64,7 @@ WHERE account_balance > 100;
 
 -- 8. Add a new record.
 INSERT INTO syntax_practice (username, city, transactions_completed, transactions_attempted, account_balance)
-VALUES ('brian', 'eagan', 8, 11, 101),
+VALUES ('brian', 'eagan', 0, 0, 0),
 
 -- 9. The bank is losing money in Miami and Phoenix and needs to unload
 -- low transaction customers: Delete users that reside in miami OR phoenix
