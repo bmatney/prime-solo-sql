@@ -34,6 +34,7 @@ WHERE username LIKE '%a%';
 -- and a transactions_attempted of 0. Give them a new account balance of 10.00.
 UPDATE syntax_practice
 SET account_balance=10.00
+WHERE account_balance=0
 WHERE transactions_attempted=0;
 
 
